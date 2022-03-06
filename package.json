@@ -1,0 +1,34 @@
+{
+    "name": "nodejs-base-model",
+    "version": "1.0.2",
+    "description": "nodejs base model ",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist/"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hohieuit/base-model.git"
+    },
+    "author": "hieu.ale.it@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hohieuit/base-model/issues"
+    },
+    "homepage": "https://github.com/hohieuit/base-model#readme",
+    "devDependencies": {
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2"
+    },
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/uuid": "^8.3.4",
+        "axios": "^0.26.0",
+        "uuid": "^8.3.2"
+    }
+}
